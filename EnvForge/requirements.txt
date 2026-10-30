@@ -1,0 +1,7 @@
+# 核心引擎只依赖 Python 标准库，不安装本文件也能运行 CLI。
+# 下列依赖用于 GUI、测试与打包：
+
+PySide6>=6.7
+pytest>=8
+coverage>=7
+PyInstaller>=6.10

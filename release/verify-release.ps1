@@ -1,6 +1,6 @@
 param(
     [string]$ReleaseDir = "",
-    [string[]]$Apps = @("RunTrace", "SpacePilot", "QuickDeck", "RecallFS"),
+    [string[]]$Apps = @("EnvForge", "RunTrace", "SpacePilot", "QuickDeck", "RecallFS"),
     [switch]$KeepInstalled
 )
 
