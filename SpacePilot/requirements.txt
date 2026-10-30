@@ -1,0 +1,6 @@
+# SpacePilot 运行依赖
+# PySide6 为可选依赖：未安装时 python -m spacepilot 自动回退到 CLI
+PySide6>=6.5
+
+# 测试依赖
+pytest>=8.0

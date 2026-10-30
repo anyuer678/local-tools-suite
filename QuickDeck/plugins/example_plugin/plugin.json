@@ -1,0 +1,27 @@
+{
+  "id": "example",
+  "name": "示例插件",
+  "version": "1.0.0",
+  "api_version": "1",
+  "entry": "plugin.py",
+  "commands": [
+    {
+      "id": "char_count",
+      "name": "统计字符数",
+      "description": "统计输入文本的字符数",
+      "input_type": "text",
+      "output_type": "text",
+      "aliases": ["字数", "字符数"],
+      "keywords": ["统计", "文本", "字符"]
+    },
+    {
+      "id": "reverse",
+      "name": "反转文本",
+      "description": "按字符反转输入文本",
+      "input_type": "text",
+      "output_type": "text",
+      "aliases": ["反转"],
+      "keywords": ["reverse", "文本"]
+    }
+  ]
+}

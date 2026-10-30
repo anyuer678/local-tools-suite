@@ -1,0 +1,8 @@
+65050204ee0b71a88f6dd7d2b1e25589ad0ace3075f58fd4564ffb86dda1bf57  QuickDeck-0.1.0-win64.zip
+c7a530fa7f4047668ec3ec72dc5f05bbe8be83e583e0926beac2de0390c05714  RecallFS-0.1.0-win64.zip
+74a6a924031b13dab587bfc273457734e7d44be6bb1b3942139a1c31389b1056  RunTrace-0.1.0-win64.zip
+2cd6fb4b49c733c1bc31a3b50a2b46b16c09ddfb958f524b64718181a0cd3850  SpacePilot-0.1.0-win64.zip
+0dd4bc6f53b5662dfdf2c1b2d7fef24a3913c09d8418c7b16ecf35b16b211a9e  installers\QuickDeck-0.1.0-setup.exe
+46df991c280b5719c4c03e716801cf42b1ec13514d9ad251a5277cf35a024562  installers\RecallFS-0.1.0-setup.exe
+0bb6b4750c76e45d14eb62bebd34e7294abb02d8a03752126f5a087745d2b194  installers\RunTrace-0.1.0-setup.exe
+12860a1d07ecc8888a460c5a0096f49359afbd26c5cb1ba489c7fc7299fa58de  installers\SpacePilot-0.1.0-setup.exe

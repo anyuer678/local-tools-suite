@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spacepilot"
+version = "0.1.0"
+description = "SpacePilot - Windows 磁盘空间分析与安全治理平台"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.5"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+spacepilot = "spacepilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

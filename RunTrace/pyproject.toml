@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runtrace"
+version = "0.1.0"
+description = "本地任务运行历史、差异分析与复现平台"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.7"]
+
+[project.scripts]
+runtrace = "runtrace.cli:main"
+
+[tool.setuptools]
+# 根目录的 runtrace.py 只是源码检出启动器，不进入 wheel；真实包在 src/runtrace。
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,15 @@
+# 核心运行只依赖 Python 3.12 标准库（sqlite3/FTS5、os.scandir、hashlib、re、json、threading）。
+# 以下均为“可选增强”，缺失时应用会如实降级，不会崩溃：
+#
+#   pypdf          PDF 文本提取（缺失则 pdf 标记 unsupported，仅保留元数据记录）
+#   python-docx    DOCX 段落/表格文本提取（缺失则 docx 标记 unsupported）
+#   python-pptx    PPTX 幻灯片文本提取（缺失则 pptx 标记 unsupported）
+#   PySide6        桌面 GUI（缺失则 python -m recallfs 自动回退 CLI）
+#   psutil         benchmark 内存统计更精确（缺失则 Windows psapi / resource 回退）
+#   pytest         测试框架
+pypdf>=4.0
+python-docx>=1.1
+python-pptx>=0.6
+PySide6>=6.5
+psutil>=5.9
+pytest>=8.0
